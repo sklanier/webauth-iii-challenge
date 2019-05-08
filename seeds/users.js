@@ -8,24 +8,24 @@ exports.seed = function(knex, Promise) {
       // Inserts seed entries
       return knex("users").insert([
         {
-          username: "joseph",
+          username: "steve",
           password: bcrypt.hashSync("pass", 12),
           department: "admin"
         },
         {
-          username: "david",
+          username: "laura",
           password: bcrypt.hashSync("pass", 12),
           department: "admin"
         },
         {
-          username: "blake",
+          username: "tristan",
           password: bcrypt.hashSync("pass", 12),
           department: "clerk"
         },
         {
-          username: "nick",
+          username: "erica",
           password: bcrypt.hashSync("pass", 12),
-          department: "ckneslerk"
+          department: "friend"
         }
       ]);
     });
