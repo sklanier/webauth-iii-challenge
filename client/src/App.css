@@ -1,0 +1,56 @@
+App {
+  text-align: center;
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: rgb(216, 213, 213);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.navbar {
+  background-color: #6278a3;
+  color: white;
+  font-size: 22px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  transition: 0.15s ease-in-out
+}
+
+.navbar a:hover {
+  color: rgb(194, 198, 212);
+}
+
+.active {
+  color: rgb(194, 198, 212);
+}
+
+button {
+  color: white;
+  background-color: #6278a3;
+  border-radius: 4px;
+  padding: 0 30px;
+  font-size: 20px;
+  font-size: 19px;
+} 
